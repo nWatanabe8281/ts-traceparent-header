@@ -1,0 +1,17 @@
+{
+  "name": "ts-traceparent-header",
+  "version": "0.1.0",
+  "description": "Parses a W3C traceparent header string into version, traceId, spanId, and flags, rejecting anything that is not structurally valid.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {}
+}
